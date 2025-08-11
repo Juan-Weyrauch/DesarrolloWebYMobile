@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TA6</title>
+</head>
+<body>
+    <h2>Formulario</h2>
+    <form action="https://example.com/submit" method="post">
+        <!-- Nombre -->
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <!-- Correo electrónico -->
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- Edad (botones de radio) -->
+        <label>Edad:</label><br>
+        <input type="radio" id="edad1" name="age" value="0-18" required>
+        <label for="edad1">0-18</label><br>
+
+        <input type="radio" id="edad2" name="age" value="18-25" required>
+        <label for="edad2">18-25</label><br>
+
+        <input type="radio" id="edad3" name="age" value="26-35">
+        <label for="edad3">26-35</label><br>
+
+        <input type="radio" id="edad4" name="age" value="36-50">
+        <label for="edad4">36-50</label><br>
+
+        <input type="radio" id="edad5" name="age" value="50+">
+        <label for="edad5">50+</label><br><br>
+
+        <!-- Selección múltiple -->
+        <label for="interests">¿Qué temas te interesan? (puedes seleccionar varios)</label><br>
+        <select name="interests[]" id="interests" multiple size="4" required>
+            <option value="tecnologia">Tecnología</option>
+            <option value="ciencia">Ciencia</option>
+            <option value="arte">Arte</option>
+            <option value="deportes">Deportes</option>
+        </select>
+        <br><br>
+
+        <!-- Mensaje -->
+        <label for="message">Mensaje:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <br><br>
+
+        <!-- Botones -->
+        <button type="submit">Enviar</button> 
+        <button type="reset">Limpiar</button>
+    </form>
+</body>
+</html>
