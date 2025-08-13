@@ -81,7 +81,3 @@ body {
 
 .card button:active { transform: translateY(1px); } /*mas facil con transform profe*/
 .card button:hover { filter: brightness(1.05); } /*directo de stack overflow*/
-
-    /* ===== Alternativas de centrado (opcional): =====
-
-    */
