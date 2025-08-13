@@ -1,0 +1,13 @@
+body {
+    margin-left: 35%;
+    margin-right: 35%;
+}
+/*same as before*/
+
+div > p {
+    /* fondo amarillo, texto rojo, un tamaño de fuente de 20px y alineación centrada */
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
